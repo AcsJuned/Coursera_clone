@@ -1,0 +1,14 @@
+.ContainerM{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.pMain{
+    background: #F4EDDF;
+    /* max-height: 1000px; */
+}
+h1{
+    margin-top: 10px;
+}

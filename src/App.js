@@ -7,6 +7,9 @@ import HeroComponent from './Components/HeroComponent/HeroComponent ';
 import HeroSubSection from './Components/HeroSubSection/HeroSubSection';
 import CourseraPlus from './Components/CourseraPlus/CourseraPlus';
 import ProductCardCollection from './Components/ProductCardCollection/ProductCardCollection';
+import SearchComponent from './Components/SearchComponent/SearchComponent';
+import Testimonials from './Components/Testimonials/Testimonials';
+import PriceComparison from './Components/PriceComparison/PriceComparison';
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
      <HeroSubSection/>
      <CourseraPlus/>
      <ProductCardCollection/>
+     <SearchComponent/>
+     <Testimonials/>
+     <PriceComparison/>
     </div>
   );
 }
