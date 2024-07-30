@@ -1,0 +1,57 @@
+.hero-heading {
+  color: #1f1f1f;
+  font-size: 30px;
+}
+
+.hero-button {
+  background-color: #0056d2;
+  color: #ffffff;
+  padding: 12px 32px;
+}
+
+.hero-subtext {
+  margin: 0 0 0 16px;
+  padding: 0 16px 12px;
+  color: #0056d2;
+}
+
+.hero-image-container {
+  margin: 5px 0;
+  padding: 0 16px;
+}
+
+.courseraplus-image {
+  margin-top: 20px;
+  width: 400px;
+  height: auto;
+}
+.hero-text {
+  margin: 0;
+  font-size: 30px;
+  font: var(--cds-typography-title-small);
+  letter-spacing: var(--cds-letter-spacing-minus50);
+  color: var(--cds-color-neutral-primary);
+  font-weight: normal;
+}
+
+.hero-image {
+  max-width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 50px;
+}
+.maincontainer {
+  background-color: aliceblue;
+  width: 100%;
+}
+.container {
+  width: 100%;
+
+}
+.text{
+  font-size: 25px;
+}
+a{
+  font-size: 20px;
+  
+}

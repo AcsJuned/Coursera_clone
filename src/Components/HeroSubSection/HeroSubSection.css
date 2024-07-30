@@ -1,0 +1,28 @@
+.hero-subsection {
+    padding: 20px;
+  }
+  
+  .image-span {
+    margin: 10px 0;
+    width: 100%;
+    
+  }
+  
+  .img-fluid {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  
+  hr {
+    border: 1px solid #ffffff;
+    width: 100%;
+  }
+  h2{
+    text-align: center;
+    justify-content: center;
+    
+  }
+  

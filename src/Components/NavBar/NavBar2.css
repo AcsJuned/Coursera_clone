@@ -1,0 +1,30 @@
+.border-blue {
+    border-color: blue !important;
+  }
+  .CourseraLogo {
+    width: 127px;
+    height: 32px;
+  }
+  
+  .login-link {
+    color: darkblue !important;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline !important;
+  }
+.nav-links{
+  margin-left: 100px;
+
+}
+.searchbar{
+  width: 350px !important;
+  border-radius:10px ;
+}
+.formcontrol{
+  border-radius: 10px;
+}
+.formcontro:focus{
+  border: lightskyblue;
+  outline: none;
+}

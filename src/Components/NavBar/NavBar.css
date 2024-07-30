@@ -1,0 +1,25 @@
+.custom-nav {
+  padding-left: 10px;
+}
+
+.custom-nav .nav-link {
+  color: white !important;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.custom-nav .nav-link:hover {
+  background-color: white;
+  color: black !important;
+  
+}
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 992px) {
+  .custom-nav {
+    padding-left: 0;
+  }
+}
