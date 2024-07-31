@@ -10,12 +10,16 @@ import ProductCardCollection from './Components/ProductCardCollection/ProductCar
 import SearchComponent from './Components/SearchComponent/SearchComponent';
 import Testimonials from './Components/Testimonials/Testimonials';
 import PriceComparison from './Components/PriceComparison/PriceComparison';
+import FAQComponent from './Components/FAQComponent/FAQComponent';
+import Subcription from './Components/Subscription/Subscription';
+import Footer from './Components/Footer/Footer';
+import { navbar_json } from './Components/JSON_File';
 
 
 function App() {
   return (
     <div className="App">
-     <NavBar />
+     <NavBar  data={navbar_json}/>
      <NavBar2/>
      <HeroComponent/>
      <HeroSubSection/>
@@ -24,6 +28,9 @@ function App() {
      <SearchComponent/>
      <Testimonials/>
      <PriceComparison/>
+     <FAQComponent/>
+     <Subcription/>
+     <Footer/>
     </div>
   );
 }

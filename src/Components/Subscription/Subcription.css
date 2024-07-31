@@ -1,0 +1,10 @@
+.main-container-subcription{
+    background-color: #271066;
+}
+.butn{
+    background-color: #0056D2; 
+}
+.butn:hover{
+    background-color: rgb(5, 12, 93);
+    /* color: rgb(20, 61, 248); */
+}

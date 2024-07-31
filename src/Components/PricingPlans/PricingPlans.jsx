@@ -4,7 +4,7 @@ import "./PricingPlans.css";
 
 const PricingPlans = () => {
   return (
-    <div className="container ptop mt-5">
+    <div className="container ptop mt-5 ">
       {/* Main div */}
       <div className="row   Maindiv ">
         {/* First div */}

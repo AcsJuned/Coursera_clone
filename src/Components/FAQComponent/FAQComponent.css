@@ -1,0 +1,18 @@
+.faqContainer {
+    background-color: #DBEEF6;
+    width: 100%;
+    height: auto; /* Changed to auto for responsiveness */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.containerdiv{
+   
+    /* width: 750px; */
+}
+
+/* Optional: Add responsive padding or margins if needed */
+@media (max-width: 576px) {
+    .faqContainer {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+.rowContainer{
+    margin-top: 100px;
+    
+}
+
+.footer-links a {
+    font-size:0.7rem ;
+
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: #007bff;
+  }
+  
+  
+  /* .listFont li a {
+    font-size: 0.9rem; 
+  } */
+  
+  
+  @media (max-width: 768px) {
+    .listFont li a {
+      font-size: 0.8rem;
+    }
+  }
+  
+  
+  .container {
+    padding: 1rem;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .rowContainer {
+    margin-bottom: 1.5rem;
+  }
+  
+  .text-uppercase {
+    font-weight: bold;
+  }
+  
