@@ -13,14 +13,14 @@ import PriceComparison from './Components/PriceComparison/PriceComparison';
 import FAQComponent from './Components/FAQComponent/FAQComponent';
 import Subcription from './Components/Subscription/Subscription';
 import Footer from './Components/Footer/Footer';
-import { navbar_json } from './Components/JSON_File';
+import { navbar2_json, navbar_json } from './Components/JSON_File';
 
 
 function App() {
   return (
     <div className="App">
      <NavBar  data={navbar_json}/>
-     <NavBar2/>
+     <NavBar2  data={navbar2_json}/>
      <HeroComponent/>
      <HeroSubSection/>
      <CourseraPlus/>
