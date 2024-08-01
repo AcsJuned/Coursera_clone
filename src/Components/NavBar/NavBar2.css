@@ -1,30 +1,34 @@
 .border-blue {
-    border-color: blue !important;
-  }
-  .CourseraLogo {
-    width: 127px;
-    height: 32px;
-  }
-  
-  .login-link {
-    color: darkblue !important;
-  }
-  
-  .login-link:hover {
-    text-decoration: underline !important;
-  }
-.nav-links{
-  margin-left: 100px;
+  border-color: var(--border-blue) !important;
+}
 
+.CourseraLogo {
+  width: var(--logo-width);
+  height: var(--logo-height);
 }
-.searchbar{
-  width: 350px !important;
-  border-radius:10px ;
+
+.login-link {
+  color: var(--login-link-color) !important;
 }
-.formcontrol{
-  border-radius: 10px;
+
+.login-link:hover {
+  text-decoration: var(--login-link-hover-decoration) !important;
 }
-.formcontro:focus{
-  border: lightskyblue;
+
+.nav-links {
+  margin-left: var(--nav-links-margin-left);
+}
+
+.searchbar {
+  width: var(--searchbar-width) !important;
+  border-radius: var(--searchbar-border-radius);
+}
+
+.formcontrol {
+  border-radius: var(--searchbar-border-radius);
+}
+
+.formcontrol:focus {
+  border: var(--searchbar-focus-border-color);
   outline: none;
 }

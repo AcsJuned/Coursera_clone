@@ -1,6 +1,45 @@
-.content-team{
+.content-team {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
+  
+  @media (max-width: 992px) {
+    .content-team {
+      padding: 0 15px;
+    }
+  
+    .card {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  
+    .btn {
+      font-size: 0.875rem;
+    }
+  
+    .fs-2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .content-team {
+      padding: 0 10px;
+    }
+  
+    .card {
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  
+    .btn {
+      font-size: 0.75rem;
+    }
+  
+    .fs-2 {
+      font-size: 1.25rem;
+    }
+  }
+  

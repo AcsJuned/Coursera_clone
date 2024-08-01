@@ -1,18 +1,24 @@
 .faqContainer {
-    background-color: #DBEEF6;
-    width: 100%;
-    height: auto; /* Changed to auto for responsiveness */
-    padding: 20px;
-    box-sizing: border-box;
+  background-color: #dbeef6;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.containerdiv{
-   
-    /* width: 750px; */
+.containerdiv {
+  width: 100%;
 }
 
 /* Optional: Add responsive padding or margins if needed */
 @media (max-width: 576px) {
-    .faqContainer {
-        padding: 10px;
-    }
+  .faqContainer {
+    padding: 10px;
+  }
+}
+.row .justify-content-center .containerdiv .col-12 .col-md-10 .col-lg-8 {
+  background-color: bisque;
+}
+
+.accordion-button {
+  background-color: rgb(255, 255, 255) !important;
 }

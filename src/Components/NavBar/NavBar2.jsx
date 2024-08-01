@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 const NavBar2 = (props) => {
   const [showDropdown, setShowDropdown] = useState(false);
-  const { data } = props; // Destructure data from props
+  const { data } = props; 
 
   return (
     <Navbar bg="light" expand="lg" className='position-sticky'>

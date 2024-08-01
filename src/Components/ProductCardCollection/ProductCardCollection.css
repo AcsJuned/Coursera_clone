@@ -10,6 +10,11 @@
   flex: 1 0 21%; 
 }
 
+.row {
+   
+   
+}
+
 @media (max-width: 576px) {
   .card {
     width: 100%;
@@ -27,4 +32,3 @@
     width: 30%;
   }
 }
-/*  */

@@ -12,7 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-:root{
-  --brand-color:red
-  
+
+:root {
+  --primary-color: #0056d2;
+  --secondary-color: #1f1f1f;
+  --background-color: aliceblue;
+  --text-color: #1f1f1f;
+  --button-text-color: #ffffff;
+  --link-color: #0056d2;
+  --hero-subtext-color: #0056d2;
+  --neutral-primary: #1f1f1f;
 }
+
+:root {
+  --navbar-bg-color: #000000; 
+  --navbar-link-color: #ffffff; 
+  --navbar-link-hover-bg: #ffffff; 
+  --navbar-link-hover-color: #000000;
+  --navbar-border-color: #dddddd; 
+  --navbar-padding-left: 10px;
+  --navbar-link-padding: 10px 15px;
+  --navbar-collapsed-padding-left: 0;
+  --navbar-link-padding-mobile: 8px 12px;
+}
+
+:root {
+  --border-blue: blue;
+  --logo-width: 127px;
+  --logo-height: 32px;
+  --login-link-color: darkblue;
+  --login-link-hover-decoration: underline;
+  --nav-links-margin-left: 100px;
+  --searchbar-width: 350px;
+  --searchbar-border-radius: 10px;
+  --searchbar-focus-border-color: lightskyblue;
+}
+
+
+:root {
+  --padding-large: 20px;
+  --padding-medium: 15px;
+  --padding-small: 10px;
+  
+  --img-max-width-desktop: 70%;
+  --img-max-width-tablet: 90%;
+  --img-max-width-mobile: 100%;
+  
+  --hr-border-color: #ffffff;
+  --hr-width: 100%;
+}
+
+
+

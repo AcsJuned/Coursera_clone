@@ -5,8 +5,8 @@ import './ProductCard.css';
 const ProductCard = ({ title, imgSrc, altText, link, level, type }) => {
   return (
     <div className="card">
-      <img src={imgSrc} className="card-img-top" alt={altText} />
-      <div className="card-body">
+      <img src={imgSrc} className="card-img-top imgsize " alt={altText} />
+      <div className="card-body cardb justify-content-between">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">Level: {level}</p>
         <p className="card-text">Type: {type}</p>

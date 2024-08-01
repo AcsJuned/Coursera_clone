@@ -13,24 +13,24 @@ import PriceComparison from './Components/PriceComparison/PriceComparison';
 import FAQComponent from './Components/FAQComponent/FAQComponent';
 import Subcription from './Components/Subscription/Subscription';
 import Footer from './Components/Footer/Footer';
-import { navbar2_json, navbar_json } from './Components/JSON_File';
+import { courSeraPlus, faqComponent, footer, heroComponent, heroSubSection, navbar2_json, navbar_json, priceComparison, productCardCollection, searchComponent, subsCription, testimonials } from './Components/JSON_File';
 
 
 function App() {
   return (
     <div className="App">
-     <NavBar  data={navbar_json}/>
-     <NavBar2  data={navbar2_json}/>
-     <HeroComponent/>
-     <HeroSubSection/>
-     <CourseraPlus/>
-     <ProductCardCollection/>
-     <SearchComponent/>
-     <Testimonials/>
-     <PriceComparison/>
-     <FAQComponent/>
-     <Subcription/>
-     <Footer/>
+    {navbar_json && ( <NavBar  data={navbar_json}/>)} 
+   { navbar2_json && (<NavBar2  data={navbar2_json}/> )}
+   {heroComponent &&( <HeroComponent data={heroComponent}/>)}
+   {heroSubSection && (<HeroSubSection data = {heroSubSection}/>)}
+   {courSeraPlus &&  (<CourseraPlus data = {courSeraPlus} />)}
+   {productCardCollection && (<ProductCardCollection data = {productCardCollection}/>)}
+   {searchComponent && ( <SearchComponent data = {searchComponent}/>)}
+    {testimonials &&(<Testimonials data = {testimonials}/>)}
+   {priceComparison &&( <PriceComparison data = {priceComparison}/>)}
+    {faqComponent &&( <FAQComponent data = {faqComponent} />)}
+    {subsCription && (<Subcription data = {subsCription}/>)}
+    {footer && ( <Footer data = {footer}/>)}
     </div>
   );
 }

@@ -1,10 +1,62 @@
-.main-container-subcription{
+.main-container-subcription {
     background-color: #271066;
-}
-.butn{
-    background-color: #0056D2; 
-}
-.butn:hover{
+  }
+  
+  .butn {
+    background-color: #0056D2;
+  }
+  
+  .butn:hover {
     background-color: rgb(5, 12, 93);
-    /* color: rgb(20, 61, 248); */
-}
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .col-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .font-weight-normal,
+    .font-weight-bold {
+      font-size: 1rem;
+    }
+  
+    .butn {
+      padding: 8px 16px;
+    }
+  
+    .btn {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .font-weight-normal,
+    .font-weight-bold {
+      font-size: 0.875rem;
+    }
+  
+    .butn {
+      padding: 6px 12px;
+    }
+  
+    .btn {
+      font-size: 0.75rem;
+    }
+  }
+  
